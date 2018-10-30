@@ -9,7 +9,16 @@ public class Car {
 
 	private Integer speed;
 	private String bodyColor;
+	private String maker;
 	
+	public String getMaker() {
+		return maker;
+	}
+
+	public void setMaker(String maker) {
+		this.maker = maker;
+	}
+
 	public String getBodyColor() {
 		return bodyColor;
 	}
